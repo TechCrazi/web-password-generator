@@ -3,7 +3,7 @@ Simple web application to generate long and complex passwords
 ![screenshot](../assets/screenshot.jpg/?raw=true)
 ## Build from source
 ```
-git clone https://github.com/camandel/web-password-generator.git
+git clone https://github.com/techcrazi/web-password-generator.git
 cd web-password-generator
 go get github.com/GeertJohan/go.rice/rice
 rice embed-go 
@@ -11,7 +11,7 @@ go build .
 ```
 ## Run with Docker image
 ```
-docker run --rm -p 8080:8080 camandel/web-password-generator
+docker run --rm -p 8080:8080 techcrazi/web-password-generator
 ```
 ## Run from CLI
 ```
